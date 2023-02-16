@@ -66,7 +66,7 @@ export default function App() {
         options={{
           title: 'Healthy Recipes',
           headerStyle: {
-            backgroundColor: 'orange',
+            backgroundColor: '#f4501c',
           },
           headerTintColor: 'white',
           headerTitleStyle: {
@@ -80,7 +80,7 @@ export default function App() {
         options={{
           title: ' ',
           headerStyle: {
-            backgroundColor: 'orange',
+            backgroundColor: '#f4501c',
           },
           headerTintColor: 'white',
         }}
@@ -116,7 +116,7 @@ styles = StyleSheet.create({
     paddingLeft: 30,
   },
   title: {
-    fontSize: 50,
+    fontSize: 40,
     fontWeight: 'bold',
   },
   inputContainer: {
@@ -140,7 +140,7 @@ styles = StyleSheet.create({
     fontSize: 40,
   },
   buttonText: {
-    fontSize: 30,
+    fontSize: 25,
     color: 'white',
   }
 });
